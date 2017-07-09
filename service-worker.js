@@ -4,13 +4,13 @@
  */
 
 const PREFIX = 'PWATEST';
-const HASH = '1.0.9';
+const HASH = '1.1.5';
 const OFFLINE_CACHE = `${PREFIX}-${HASH}`;
 const OFFLINE_FILES = [
   './',
   './index.html',
   './index.js',
-  './cacheman.js'
+  './cacheman.js',
 ];
 
 self.addEventListener('install', event => {

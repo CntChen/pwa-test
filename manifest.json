@@ -1,0 +1,13 @@
+{
+  "name": "PWA Test by CntChen",
+  "short_name": "PWA Test",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }],
+  "Start_url": "./cacheman.js",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#000000"
+}
